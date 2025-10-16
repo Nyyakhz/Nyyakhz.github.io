@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Портфолио: Разработчик и Дизайнер</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Моё портфолио</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Проекты</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5 bg-light text-center">
+    <div class="container">
+      <h1 class="display-4">Барнаев Артём</h1>
+      <p class="lead">Fullstack-разработчик и веб-дизайнер</p>
+    </div>
+  </header>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2>Обо мне</h2>
+      <p>Занимаюсь веб-разработкой и дизайном интерфейсов, специализируюсь на адаптивной вёрстке с Bootstrap и UX-UI.
+        На данный момент прохожу обучение в школе програмированния, а также в МБОУ СОШ города Сургут
+      </p>
+      <ul>
+        <li>HTML, CSS (Bootstrap), JavaScript</li>
+        <li>Дизайн в Figma</li>
+        <li>Адаптивная верстка</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2>Крупные проекты</h2>
+      <h5>Малые проекты я могу предоставть по вашей просьбе</h5>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://disk.yandex.ru/i/HYGpGHDp6XbNEA" class="card-img-top" alt="Project1">
+            <div class="card-body">
+              <h5 class="card-title">NOS site</h5>
+              <p class="card-text">В разработке, мой личный и основной проект</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://disk.yandex.ru/i/IWc0eJ_BFKmWWg" class="card-img-top" alt="Project2">
+            <div class="card-body">
+              <h5 class="card-title">AirFrench site</h5>
+              <p class="card-text">Сайт для виртуальной авиакомпании AirFrench на платформе Roblox</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2>Контакты</h2>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Ваше имя</label>
+          <input type="text" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Сообщение</label>
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="py-3 bg-primary text-white text-center">
+    <div class="container">
+      <small>&copy; 2025 Барнаев Артём</small>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
